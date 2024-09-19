@@ -1,0 +1,54 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    background-color: beige;
+    margin: 0 0 10px 0;
+    height: 100vh;
+    border: 2px dotted black;
+    border-radius: 6px;
+}
+.container #head1{
+    margin: 1.1em 43%;
+
+}
+
+#head1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    text-shadow: 2px 1px 0px black;
+}
+
+.r1-holder{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 0px 10px;
+    border: 1px solid black;
+
+}
+
+.r1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    padding: 3rem 0;
+    
+}
+
+.r1 a{
+    text-decoration: none;
+}
+
+.r1.las a{
+    color: rgb(233, 172, 4);
+    -webkit-text-stroke: 0.5px black;
+    text-shadow: 2px 1px 0px black;
+}
+
+.r1.ctm a{
+    color: orangered;
+    -webkit-text-stroke: 0.5px black;
+    text-shadow: 2px 1px 0px black;
+}
