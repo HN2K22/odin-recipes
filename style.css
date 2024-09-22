@@ -23,17 +23,19 @@ body{
 
 #head1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gray;
-    text-shadow: 2px 1px 0px black;
+    color: gray;a{
+        list-style-type: none;
+        
+    }
 }
-
 .r1-holder{
     width: 50%;
     height: 50%;
     background-color: rgb(255, 255, 255);
-    margin: 0 0 0px 10px;
+    margin: 0 auto 0 auto;
     border: 1px solid black;
-
+    text-align: center;
+    list-style-type: none;
 }
 
 .r1 {
@@ -52,6 +54,7 @@ body{
     color: rgb(233, 172, 4);
     -webkit-text-stroke: 0.5px black;
     text-shadow: 2px 1px 0px black;
+    
 }
 
 .r1.ctm a{
